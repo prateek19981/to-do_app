@@ -1,0 +1,117 @@
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100%;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: darkgray;
+
+}
+
+.ip-style
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ip-style input
+{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    background-color: palevioletred;
+    width: 450px;
+    border: none;
+    border-radius: 25px;
+}
+
+.addbtn
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    color: black;
+    margin: 0.25px;
+    cursor: pointer;
+}
+
+
+.container
+{
+    transform: translate(500px,50px);
+}
+
+.it_ip
+{
+    background: none;
+    outline: none;
+    color:black;
+    width: 350px;
+    border: none;
+    font-size: 1.5rem;
+    
+}
+
+
+.removebtn
+{
+    background-color:white;
+    transform: scale(2);
+    border: none;
+    cursor: pointer;
+}
+
+#item-count
+{
+    transform: translate(0px,-50px);
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+    transform: translate(-180px,-50px);
+    width:50%;
+}
+
+#input1
+{
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+}
+
+.check
+{
+    transform: translate(-50px);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+::placeholder
+{
+    color: black;
+}
